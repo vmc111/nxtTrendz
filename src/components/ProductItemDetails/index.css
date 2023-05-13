@@ -1,0 +1,153 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.product-and-similar-products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-top: 20px;
+
+  width: 1100px;
+}
+.product-details-container {
+  height: 500px;
+  font-family: 'roboto';
+}
+.product-image {
+  height: 500px;
+  width: 500px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.product-title {
+  margin-top: -6px;
+  margin-bottom: 0px;
+}
+.product-cost {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.rating-and-reviews-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 140px;
+}
+.ratings-container {
+  background-color: #3b82f6;
+  padding: 5px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 30px;
+
+  color: white;
+  font-family: 'roboto';
+}
+.star-image {
+  height: 20px;
+}
+.reviews-container {
+  font-size: 14px;
+  font-weight: bold;
+}
+.description {
+  color: #616e7c;
+}
+.availability-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 135px;
+
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+.data {
+  color: #616e7c;
+}
+.plus-minus-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100px;
+}
+.plus-button {
+  font-size: 20px;
+  font-weight: normal;
+}
+.cart-value {
+  font-size: 22px;
+}
+.cart-button {
+  border: 0px none transparent;
+  background-color: transparent;
+}
+.add-to-cart-button {
+  background-color: #3b82f6;
+  color: white;
+  font-family: 'roboto';
+  padding: 10px;
+
+  border: 0px none transparent;
+  border-radius: 5px;
+}
+.similar-productss-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+  width: 700px;
+
+  margin-left: -30px;
+  list-style-type: none;
+}
+.similar-main-heading {
+  font-family: 'roboto';
+  margin-left: 5px;
+}
+.failure-image {
+  height: 500px;
+  width: 700px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+.failure-button {
+  background-color: #3b82f6;
+  border: 0px none transparent;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
